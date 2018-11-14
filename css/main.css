@@ -1,0 +1,360 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+p{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 325;
+  font-size: 1.6rem;
+  padding: 0 25px;
+  color: #121c24;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+a{
+  text-decoration: none;
+  display: flex;
+}
+
+img {
+  width: calc(30% - 2px);
+  float: left;
+  margin: 1.66%;
+  border:1px solid #192530;
+}
+
+.gallery-image{
+  width: calc(80% - 2px);
+  margin: 0 10%;
+  float: left;
+  border:1px solid #192530;
+}
+
+.info-container{
+  width: 100%;
+  height:auto;
+}
+
+.info-text{
+  font-family: 'Lobster', sans-serif;
+  font-size: 2.5vh;
+  text-align: center;
+  padding: 0 25px;
+  color: #121c24;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+h3{
+  font-family: 'Lobster', cursive;
+  font-size: 2.8rem;
+  background: -webkit-linear-gradient(#1f2f3c, #3f5e78, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 100px;
+  padding: 0 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-left: 2px solid #121c24;
+}
+
+hr.style-two {
+  width: 80%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+hr.mlhr {
+  width: 80%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.header{
+  width:100%;
+  min-height: 6vh;
+  z-index: 500;
+  background-color: #1f2f3c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  border-bottom: 2px solid #192530;
+}
+
+.logo-container{
+  display: flex;
+  padding: 5px;
+  transition: .2s;
+  animation: fadein .3s;
+}
+
+.logo-container:hover  { 
+  transform: scale(0.90);
+   background:#213d54; 
+   border: 2px solid #192530;
+   border-top: none;
+}
+
+.logo-container h2{
+  padding-left: 5px;
+  font-family: 'Lobster', cursive;
+  margin: 10px 0 5px;
+  font-size: 2.2rem;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+#logo{
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #192530;
+  background-color: #000;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.top-content{
+  background: url('../img/banner.jpg') no-repeat;
+  background-size: cover;
+  background-position:center;
+  overflow-x: hidden;
+  min-width: 100%;
+  height:100vh;
+  border-bottom: 2px solid #192530;
+  display: flex;
+  flex-direction: column;
+  margin-top:6vh;
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  text-align: center;
+}
+
+.banner h1{
+  font-family: 'Lobster', cursive;
+  font-size: 12vh;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  margin: 0;
+}
+
+/* .welcome-banner h2{
+  font-family: 'Lobster', cursive;
+  font-size: 6vh;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  margin: 0;
+} */
+
+.banner p{
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.bottom-content{
+  background: #f1f1f1;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+
+.content-link{
+  flex: 1 1 400px;
+  padding: 20px;
+  width: 500px;
+  background-color: #f1f1f1;
+  transition: .3s;
+  animation: fadein .3s;
+}
+
+.content-link:hover{
+  transform: scale(0.95);
+  background:#213d54;
+  border: 1px solid #192530;
+}
+
+.content-link:hover p{
+  color:#fff;
+}
+
+.content-link a{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  padding-bottom:10px;
+}
+
+.content-link h2{
+  font-family: 'Lobster', cursive;
+  margin: 10px 0 5px;
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#1f2f3c, #3f5e78, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding:5px;
+}
+
+.content-link:hover h2{
+    background: -webkit-linear-gradient(#e7eff6, #fff, #f1f1f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.scroll-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #121c24;
+  background-color: #121c24;
+}
+
+.text{
+  flex-wrap: wrap;
+  padding-top:25px;
+  padding-bottom:50px;
+}
+
+.text h2{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin: auto;
+  font-size: 3rem;
+  background: -webkit-linear-gradient(#1f2f3c, #3f5e78, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding:5px;
+}
+
+.headline{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  text-decoration-color: #3f5e78;
+  margin: auto;
+  font-size: 3rem;
+  background: -webkit-linear-gradient(#1f2f3c, #3f5e78, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding:10px;
+}
+
+.example-gallery{
+}
+
+.portfolio-gallery{
+  width: 100%
+}
+
+.about-me{
+  width: 100%;
+}
+
+.contact-me{
+  width:100%;
+  padding-bottom: 100px;
+}
+
+.contact-link{
+  flex: 1 1 400px;
+  padding: 20px;
+  width: 500px;
+  background-color: #f1f1f1;
+  transition: .3s;
+  animation: fadein .3s;
+}
+
+.contact-link:hover{
+  transform: scale(0.95);
+  background:#213d54;
+  border: 1px solid #192530;
+}
+
+.contact-link:hover p{
+  color:#fff;
+}
+
+.contact-link a{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  padding-bottom:10px;
+}
+
+.contact-link h2{
+  font-family: 'Lobster', cursive;
+  margin: 10px 0 5px;
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#1f2f3c, #3f5e78, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding:5px;
+}
+
+.contact-link:hover h2{
+    background: -webkit-linear-gradient(#e7eff6, #fff, #f1f1f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.photo-credits{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin: 0 10%;
+  font-size: 5vh;
+  background: -webkit-linear-gradient(#1f2f3c, #3f5e78, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.footer{
+  height: 64px;
+  background-color: #1f2f3c;
+  border-top: 2px solid #192530;
+  margin: 0;
+}
+
+.copyright{
+  font-family: 'Lobster', cursive;
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  text-align: center;
+  margin: 12px auto;
+}
+
+
+/* Color examples */
+/* Whine red 1 #800000 */
+/* Whine red 2 #990000 */
+/* Bright red #FF0000 */
+/* Grey 1 #666666 */
+/* Grey 2 #808080 */
+/* Dark grey (Bright) #292f33 */
+/* Dark grey (Dark) #181b1d */
+
+/* YOUTUBE PALETTE */
+/* Gradient white #f1f1f1 */
+/* Light grey #666666 */
+/* Dark/whine red #cc181e */
