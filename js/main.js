@@ -8,6 +8,10 @@ $("document").ready(function() {
     }, 3000);
     
 });
+// No JS Backup scroll to top on load/refresh //
+$(document).ready(function(myFunction){
+    $(this).scrollTop(0);
+});
 
 // Safe E-Mail with JQuery/Mailtoo // 
 $('a.mail').on('click', function(){
