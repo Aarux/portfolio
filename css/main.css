@@ -290,10 +290,8 @@ hr.mlhr {
 .game-info:hover{
   background:#213d54;
   border: 1px solid #192530;
-}
-
-.game-info:hover p{
-  color:#fff;
+  color: #f1f1f1;
+  text-decoration: underline;
 }
 
 .about-me ul{
@@ -322,10 +320,6 @@ hr.mlhr {
   border: 1px solid #192530;
 }
 
-.contact-link:hover p{
-  color:#fff;
-}
-
 .contact-link h2{
   font-family: 'Oswald', sans-serif;
   margin: 10px 0 5px;
@@ -348,7 +342,7 @@ hr.mlhr {
 }
 
 .copyright{
-  font-family: 'Lobster', cursive;
+  font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
   color: #f1f1f1;
   text-shadow: 2px 2px #121c24;
