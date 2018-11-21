@@ -161,7 +161,7 @@ hr{
 }
 
 .banner-h1{
-  font-size: 8rem;
+  font-size: 7.5rem;
   margin:0;
   padding:0;
 }
@@ -182,9 +182,9 @@ hr{
 ----------------------------------------
 */
 .navigation{
-  flex: 1 1 400px;
+  flex: 1 1 300px;
   padding: 20px;
-  width: 400px;
+  width: 500px;
   margin: 25px 50px;
   background-color: #1f2f3c;
   transition: .3s;
