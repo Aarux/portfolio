@@ -1,9 +1,5 @@
-///////////////////
-//////////////////
 // JavaScript< //
-////////////////
 
-///////////////////////////////////////
 // Loading Screen Animation Script ///
 $("document").ready(function() {
     setTimeout(function(){
@@ -12,7 +8,6 @@ $("document").ready(function() {
     
 });
 
-////////////////////////////////
 // Smooth Scroll Javascript ///
 // Smooth scroll  - Scroll to Item 1 //
 $("#nav1").click(function() {
@@ -21,7 +16,6 @@ $("#nav1").click(function() {
         'slow');
 });
 
-////////////////////////////////////////
 // Smooth scroll - Scroll to Item 2 ///
 $("#nav2").click(function() {
     $('html,body').animate({
@@ -29,7 +23,6 @@ $("#nav2").click(function() {
         'slow');
 });
 
-////////////////////////////////////////
 // Smooth scroll - Scroll to Item 3 ///
 $("#nav3").click(function() {
     $('html,body').animate({
@@ -37,14 +30,9 @@ $("#nav3").click(function() {
         'slow');
 });
 
-//////////////////////////////////////////
 // Smooth scroll - Scroll Back to Top ///
 $("#to-top").click(function() {
     $('html,body').animate({
         scrollTop: 0},
         'slow');
 });
-
-////////////////////////////////////////
-/// End of Document ///////////////////
-//////////////////////////////////////

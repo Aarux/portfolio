@@ -128,6 +128,7 @@ hr{
 ----------------------------------------
 */
 .logo{
+  height:76px;
   margin-left: 15px;
   display: flex;
   padding: 0 5px;
@@ -136,10 +137,9 @@ hr{
 }
 
 .logo img{
-  margin: 5px;
+  margin: auto 0;
   width: 50px;
   height: 50px;
-  padding-top: 5px;
   border-radius: 50%;
   border: 1px solid #192530;
   background-color: #111921;
@@ -325,6 +325,7 @@ hr{
   border: #111921 1px solid;
   box-shadow: #192530 1px 1px 10px;
 }
+
 .info-link:hover{
   background:#213d54;
   border: 1px solid #192530;
@@ -408,6 +409,7 @@ hr{
   margin: auto;
   padding-top: 16px
 }
+
 /* -------------------------------------
 -- End of Document ---------------------
 --------------------------------------*/
