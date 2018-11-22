@@ -351,7 +351,7 @@
 /* For Very High Resolutions (2k, 4k) */
 @media only screen and (min-width: 2000px) {
     p{
-        font-size: 2rem;
+        font-size: 2.2rem;
         padding: 0 25px;
         margin-left:5%;
         margin-right:5%;
@@ -411,7 +411,7 @@
       ----------------------------------------
       */
       .copyright{
-        font-size: 1.8rem;
+        font-size: 2rem;
       }
 }
 
