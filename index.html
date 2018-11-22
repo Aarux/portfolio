@@ -2,19 +2,22 @@
      <html lang="en">
 <head>
   <title>GB - Portfolio</title>
+  <!-- Meta Tags -->
   <meta charset="utf-8">
-  <!-- Custom fonts (Google fonts) -->
+  <meta name="description" content="Gustav Bergman, Online Portfolio. Learn more about me and what i do as a Front-end Developer!">
+  <meta name="keywords" content="Gustav Bergman, Front-end Developer, Front-end, Developer, Portfolio, Online Portfolio, Designer">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Custom Fonts (Google fonts) -->
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mediaquery.css">
   <link rel="stylesheet" href="css/loader.css">
-  <!-- JS Library -->
+  <!-- JS Modernizr Library -->
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!--iOS -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <!--Loading screen container -->
@@ -23,6 +26,7 @@
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
     </div>
+
   <!-- Header -->
   <div class="header">
     <a id="to-top"><div class="logo">
@@ -31,7 +35,8 @@
     </div>
     </a>
   </div>
-  <!-- Body Container -->
+
+    <!-- Body Container -->
     <div class="body">
       <!-- Banner -->
       <div class="banner">
@@ -65,28 +70,29 @@
             <hr>
         	</a>
         </div>
-      <hr>        
+      <hr>
+
         <!-- Text Content Container -->
         <div class="container">
       		<h2>Introduction</h2>
           <p>Hi, My name is Gustav Bergman and I am currently studying to become a Front-end developer. Welcome to my online portfolio! This portfolio is a part of the first individual project assignment but it's something i will keep working on over time as the course continue.
-          Here you'll be able to read a little about me, what i do, what i've studied previously and the courses i've taken. But also to view previous work. On top of that you'll find some info about me personally. What i like to do on my spare time, hobbies, interests, you name it.
+          Here you'll be able to read a little about me, what i do, what i've studied previously and the courses i've taken. But also to view previous work. On top of that you'll find some info about me personally. What i like to do in my spare time, hobbies, interests, you name it.
           The purpose of this website is also to provide a way for me to showcase what i can do and what i learned so far through out the education while i simultaneously work toward learning new things and improving upon the base knowledge i already possess. Which i then can implement to the website in the future.</p>
-      	</div>
+        </div>
+        
       	<!-- Example Image Gallery -->
         <div class="images">
           <img src="img/image1.jpg" alt="">
           <img src="img/image2.jpg" alt="">
           <img src="img/image3.jpg" alt="">
         </div>
-        <!-- Example Image Gallery Info -->
-        
       <hr>
         <!-- Portfolio Project Gallery -->
         <div class="projects">
       		<h2>Portfolio Gallery</h2>
-          <p>Here are a few (Keyword being "few") of my previous projects. One project from a previous webdeveloper course and one project from a "Graphic design" course. I don't have much to show yet unfortunately due to issues i had with the computer i used at the time. Almost all of the data, projects and workfiles were lost. But hopefully i can fill this gallery up over time and improve on its design to better fit a larger quantity of projects.</p>
+          <p>Here are a few (Keyword being "few") of my previous projects. One project from a previous webdeveloper course and one project from a "Graphic design" course. I don't have much to show yet unfortunately due to issues i had with the computer i used at the time. Almost all of the data, projects and workfiles were lost. But hopefully i can fill this gallery up over time and improve on it's design to better fit a larger quantity of projects.</p>
           <p>Without further ado, let's get into the projects!</p>
+
           <!-- First Project, Webbdeveloper Course. -->
           <h3>Project 1: Webdeveloper course, End project.</h3>
           <img class="project-img" src="img/project-1.png" alt="">
@@ -95,6 +101,7 @@
           <p>I went with a pretty standard and simple design with a navbar in the top with links to my portfolio gallery, about me, contact info etc. Then i had a slider on the index page which featured images from diffrent projects in the portfolio as "banner". then i had a centered "main" div which featured the main content on the side and last but not least, a full width footer at the bottom of the page.</p>
           <p>To specify some features i had which doesnt show on the image i had a admin page with a upload form where i could upload projects. The form consisted of 4 fields where i filled in the preview image and text as well as the full image and text if you clicked on a specific projekt. The upload form validated file size, type, image proportions, text etc.</p>
           <p> The project was finished and hosted live in 2014 fully validated without errors in Html and CSS.</p>
+
           <!-- Second Project, Digital Creations Course. -->
           <h3>Project 2: Digital Creations course, Major project.</h3>
           <img class="project-img" src="img/project-2.png" alt="">
@@ -111,6 +118,8 @@
             I thought it was really cool and a bit "hacker" like to create websites. In front-end you have a visual representation of what you're doing/creating.
             Which i enjoyed a lot and the creativity it brings both in the diffrent ways, solutions, design and structure. I previously studied It Technology with media focus.</p>
           <p>So, here are some courses related to Front-End that i have studied prevoiusly.</p>
+          
+          <!-- Previous Courses List-->
           <ul>
               <li><p>Webbdeveloper 1</p></li>
               <li><p>Webbdeveloper 2</p></li>
@@ -122,7 +131,8 @@
           <p>I also enjoy drawing and editing pictures and make my own twist on the original. I'm not very good at drawing by hand (Totally don't use reference pictures, shhhhh!) so photoshop is
             a great tool for me since i have a lot of tools/features to help out. I enjoy design in general so i lean more towards designer when it comes to front-end as well.
           I'm really looking forward to learning more about animations, transitions and diffrent effects and techniques to give some spice to the website.</p>
-
+          
+          <!-- Personal Information Section-->
           <p>In my spare time i'm the stereotypical "Nerd". I Watch movies, series, streams and game whenever im not studying or drawing.</p>
           <p>When it comes to games i play pretty much anything and everything. Anything from fps shooters and MMO's to racing & rythm games. Also play on both console (Xbox) and PC.</p>
           <p>Currently i mostly play WoW (Where i Raid in a Mythic guild), Overwatch and Osu!.</p>
@@ -132,7 +142,8 @@
           <a class="info-link" href="https://osu.ppy.sh/help/wiki/Welcome">Osu!</a>
         </div>
       <hr>
-        <!-- Contact Me Info -->
+        
+      <!-- Contact Me Info -->
         <div class="contact-me">        
           <h2>Contact Info</h2>
           <h3>Contact me:</h3>
@@ -141,7 +152,7 @@
             <h2>Gustav Bergman - E-Mail</h2>
           </a>
           <a class="social-links" href="https://github.com/Aarux/portfolio">
-            <h2>Hustav Bergman - Github</h2>
+            <h2>Gustav Bergman - Github</h2>
           </a>
         </div>
           <!-- Photo Credits, Photographer - Maren Sandvold Copyright ©. All rights reserved.-->
@@ -154,20 +165,24 @@
               <h2>Maren Sandvold - Gallery</h2>
             </a>
           </div>
+          <p>Photocredits goes to photographer - Maren Sandvold</p>          
           <p>Copyright © 2018 Maren Sandvold. All rights reserved.</p>
         </div>
       </div>
     </div>
-  <!-- Footer -->
+  
+    <!-- Footer -->
 	<div class="footer">
     <p class ="copyright">Copyright © 2018 Gustav Bergman. All rights reserved.</p>
   </div>
+  
   <!-- Javascript/JQuery -->
-  <!-- Edited JQuery link, Fixes load time issues -->
+  <!-- Edited JQuery link, Fixes Local load time issues -->
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>   
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
   <script src="js/main.js"></script>
   <!-- Original JQuery link (Has loadtime issues) --><script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  
   <!-- No JavaScript Fallback -->
   <noscript>
       <style>

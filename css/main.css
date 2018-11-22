@@ -1,9 +1,17 @@
+/* --------------------------------------
+-- Remove Margin and Padding from Body --
+-----------------------------------------
+*/
 body, html{
   margin: 0;
   padding: 0;
   background-color: #000;
 }
 
+/* -------------------------------------
+-- Body Text Styling -------------------
+----------------------------------------
+*/
 p{
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
@@ -14,6 +22,11 @@ p{
   margin-right:10%;
 }
 
+/* -------------------------------------
+-- Headline styling, h1-h4 -------------
+-- Ordered by Size ---------------------
+----------------------------------------
+*/
 h1{
   font-family: 'Lobster', cursive;
   font-size: 6rem;
@@ -55,6 +68,10 @@ h4{
   padding: 10;
 }
 
+/* -------------------------------------
+-- Pointer Cursor for Links ------------
+----------------------------------------
+*/
 a{
   cursor: pointer;
   text-decoration: none;
@@ -62,6 +79,10 @@ a{
 
 }
 
+/* -------------------------------------
+-- Base Img Styling --------------------
+----------------------------------------
+*/
 img{
   width: calc(30% - 2px);
   float: left;
@@ -69,10 +90,18 @@ img{
   border:1px solid #192530;
 }
 
+/* -------------------------------------
+-- Remove Dots from Ul Tag -------------
+----------------------------------------
+*/
 ul{
   list-style-type: none;
 }
 
+/* -------------------------------------
+-- HR Styling --------------------------
+----------------------------------------
+*/
 hr{
   width: 80%;
   border: 0;
@@ -261,7 +290,7 @@ hr{
 
 .project-desc{
   font-family: 'Lobster', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1rem;
   text-align: center;
   padding: 0 25px;
   color: #121c24;
@@ -331,16 +360,12 @@ hr{
 */
 .social-links{
   width: 40%;
-  margin:5px 10%;
+  margin:10px 10%;
   border: #111921 1px solid;
   box-shadow: #192530 1px 1px 10px;
   background-color: #1f2f3c;
   transition: .3s;
   animation: fadein .3s;
-}
-.social-links:hover{
-  background:#213d54;
-  border: 1px solid #192530;
 }
 
 .social-links h2{
@@ -348,6 +373,11 @@ hr{
   font-weight: 300;
   font-size: 2rem;
   color: #f1f1f1;
+}
+
+.social-links:hover{
+  background:#213d54;
+  border: 1px solid #192530;
 }
 
 .social-links:hover h2{
@@ -378,3 +408,6 @@ hr{
   margin: auto;
   padding-top: 16px
 }
+/* -------------------------------------
+-- End of Document ---------------------
+--------------------------------------*/
