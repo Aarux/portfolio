@@ -65,7 +65,7 @@ h4{
   text-shadow: 2px 2px 2px #3f5e78;
   text-align: center;
   margin: auto;
-  padding: 10;
+  padding: 10px;
 }
 
 /* -------------------------------------
@@ -155,7 +155,8 @@ hr{
 
 .logo:hover{
   background:#213d54; 
-  border: 0 2px solid #192530;
+  border-left: 2px solid #192530;
+  border-right: 2px solid #192530;
 }
 
 /* -------------------------------------
