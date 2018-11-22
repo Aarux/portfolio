@@ -1,3 +1,9 @@
+/*--------------------------------------------------
+--- Media Queries! ------------------------------------
+----------------------------------------------------
+--------- For Font/Headline Size and Positioning! ---
+--------------------------------------------------*/
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     p{
@@ -206,6 +212,10 @@
         margin: 10px auto;
     }
 
+    .social-links h2{
+        font-size: 1.6rem;
+    }
+
       /*--------------------------------------
       -- Footer Copyright Font Size ----------
       ----------------------------------------
@@ -270,6 +280,10 @@
       }
       .social-links{
         margin: 10px 10%;
+    }
+    
+    .social-links h2{
+        font-size: 1.7rem;
     }
    
       /*--------------------------------------
@@ -339,6 +353,10 @@
         margin: 10px 10%;
     }
 
+    .social-links h2{
+        font-size: 1.8rem;
+    }
+
       /*--------------------------------------
       -- Footer Copyright Font Size ----------
       ----------------------------------------
@@ -405,6 +423,10 @@
       .social-links{
         margin: 10px 10%;
     }
+    
+    .social-links h2{
+        font-size: 2rem;
+    }
 
       /*--------------------------------------
       -- Footer Copyright Font Size ----------
@@ -414,7 +436,6 @@
         font-size: 2rem;
       }
 }
-
 /* -------------------------------------
 -- End of Document ---------------------
 --------------------------------------*/
